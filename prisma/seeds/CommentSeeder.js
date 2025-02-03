@@ -4,6 +4,7 @@ import {faker} from '@faker-js/faker'
 const prisma = new PrismaClient()
 
 const CommentSeeder = async () => {
+
     const data = [];
 
     for (let i = 0; i < 40; i++) {
